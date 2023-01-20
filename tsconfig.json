@@ -8,7 +8,8 @@
     "esModuleInterop": true,
     "target": "es6",
     "baseUrl": ".",
-    "rootDirs": ["./src/", "./test/"]
+    "rootDirs": ["./src/", "./test/"],
+    "sourceRoot": "./dist/esm"
   },
   "include": ["./src/**/*", "./test/**/*"],
   "exclude": ["node_modules"]
